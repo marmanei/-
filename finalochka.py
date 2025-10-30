@@ -3,7 +3,7 @@ import random
 import os
 import requests
 from quiz1 import quiz2
-bot = telebot.TeleBot("8429088229:AAE2YzQxpaVr8uAmfUnjQCqrbm8yDl9rf0U")
+bot = telebot.TeleBot()
 user_scores = {}
 
 @bot.message_handler(commands=['start', 'help'])
